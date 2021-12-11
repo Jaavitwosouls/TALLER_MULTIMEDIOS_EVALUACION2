@@ -1,0 +1,71 @@
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-image: url(https://wallpapercave.com/wp/jZ4YjPF.jpg);
+}
+
+.container .card{
+    width: 350px;
+    height: 290px;
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0, 0, 0, 2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: white;
+}
+
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #2b3a2f;
+    top: 40px;
+    background-image: url(https://previews.123rf.com/images/poresh/poresh0804/poresh080400011/2846806-r%C3%A1faga-de-luz-blanca-de-fondo.jpg);
+}
+
+.parrafo{
+    color: rgb(0, 0, 0);
+    width: 50%;
+    height: 20%;
+
+    max-width: 1200px;
+    margin: auto;
+}
+
+.imagen1{
+    width: 50%;
+    height: 20%;
+}
+.imagen2{
+    width: 50%;
+    height: 20%;
+}
